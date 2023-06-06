@@ -12,12 +12,12 @@
 <form action="?/login" method="POST">
   <div>
     <label for="username">Username</label>
-    <input id="username" name="username" type="text" required />
+    <input label="username" id="username" name="username" type="text" required />
   </div>
 
   <div>
     <label for="password">Password</label>
-    <input id="password" name="password" type="password" required />
+    <input label="password" id="password" name="password" type="password" required />
   </div>
 
   {#if form?.invalid}
@@ -28,5 +28,5 @@
     <p class="error">You have entered the wrong credentials.</p>
   {/if}
 
-  <button type="submit">Log in</button>
+  <button name="submit" type="submit">Log in</button>
 </form>

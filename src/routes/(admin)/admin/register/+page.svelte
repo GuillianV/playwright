@@ -19,5 +19,5 @@
     <p class="error">Username is taken.</p>
   {/if}
 
-  <button type="submit">Register</button>
+  <button type="submit" name="Register">Register</button>
 </form>
