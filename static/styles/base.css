@@ -1,22 +1,114 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa&display=swap');
 
 @font-face {
-    font-family: 'Bebas Neue';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
+	font-family: 'Bebas Neue';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
 }
 
 @font-face {
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
+	font-family: 'Comfortaa';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
 }
 
-body{
+body {
+	/* background-color: darkslategrey; */
+	background-color: black;
+}
 
-    background-color: darkslategrey;
+.strong {
+	font-weight: bold;
+	text-decoration: underline;
+}
+.mainContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 70vh;
+}
+
+h1 {
+	color: green;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+h2 {
+	color: green;
+	margin-top: 10px;
+	font-style: italic;
+	font-size: 20px;
+	font-weight: 200;
+}
+
+.actions {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+}
+
+button {
+	background-color: rgba(255, 255, 255, 0.817);
+	padding: 5px;
+	margin: 0px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: rgb(37, 96, 54);
+}
+
+.registerButton {
+	background-color: rgb(49, 132, 72);
+}
+
+.informations {
+	margin-top: 10px;
+	color: white;
+	text-align: center;
+	width: 100%;
+}
+
+.scroll {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+footer {
+	bottom: 10px;
+	position: absolute;
+	color: white;
+	text-align: center;
+	width: 100%;
+}
+
+label {
+	color: white;
+}
+
+.form {
+	width: 30%;
+}
+
+.inputContent {
+	width: 100%;
+}
+
+input {
+	width: 100%;
+	padding: 5px;
+}
+
+.submitButton {
+	float: right;
+	margin-top: 10px;
+}
+
+.error {
+	color: red;
 }

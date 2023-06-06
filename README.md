@@ -7,6 +7,11 @@
 
 Copy .env.exemple to .env
 
-$ npm i
+Installer les dépendances
+`npm i`
 
-$ npm run dev
+Installer prisma
+`npx prisma generate`
+
+Lancer l'application
+`npm run dev`
