@@ -15,6 +15,7 @@ Installer prisma
 
 Lancer l'application
 `npm run dev`
+<<<<<<< HEAD
 
 
 
@@ -47,3 +48,5 @@ $ npx playwright test
 //TODO
 
 ### Mock
+=======
+>>>>>>> f9b3732ccd2c928279a9d0b91d8f8fcaed44c5dc
