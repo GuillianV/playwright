@@ -22,7 +22,7 @@
 				<p class="error">Utilisateur déjà utilisé.</p>
 			{/if}
 
-			<button class="submitButton" type="submit">S'enregistrer</button>
+			<button class="submitButton" name="Register" type="submit">S'enregistrer</button>
 		</form>
 	</div>
 </section>

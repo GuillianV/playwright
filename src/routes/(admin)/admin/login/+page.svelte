@@ -26,7 +26,7 @@
 				<p class="error">Utilisateur ou mot de passe incorrect.</p>
 			{/if}
 
-			<button class="submitButton" type="submit">Se connecter</button>
+			<button class="submitButton" name="submit" type="submit">Se connecter</button>
 		</form>
 	</div>
 </section>
