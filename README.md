@@ -5,7 +5,7 @@
 
 ## Install
 
-Copy .env.exemple to .env
+Copy `.env.exemple` to `.env`
 
 Installer les dépendances
 `npm i`
@@ -15,9 +15,6 @@ Installer prisma
 
 Lancer l'application
 `npm run dev`
-<<<<<<< HEAD
-
-
 
 ## Tests
 
@@ -28,15 +25,18 @@ Tests effectués sur locust
 
 SRC : /static/images
 
+![](https://github.com/GuillianV/playwright/blob/master/static/images/locus1.PNG)
+![](https://github.com/GuillianV/playwright/blob/master/static/images/locus2.PNG)
+
 ### Tests fonctionnels
 
-- Installer Playwright
+1. Installer Playwright
 
-$ npx playwright install
+`npx playwright install`
 
-- Lancer Playwright
+2. Lancer Playwright
 
-$ npx playwright test
+`npx playwright test`
 
 ### Tests unitaires
 
@@ -48,5 +48,3 @@ $ npx playwright test
 //TODO
 
 ### Mock
-=======
->>>>>>> f9b3732ccd2c928279a9d0b91d8f8fcaed44c5dc
