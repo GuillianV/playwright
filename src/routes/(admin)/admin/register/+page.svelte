@@ -10,19 +10,19 @@
 		<form action="?/register" method="POST">
 			<div>
 				<label for="username">Nom d'utilisateur</label><br />
-				<input id="username" name="username" type="text" required />
+				<input aria-label="username" id="username" name="username" type="text" required />
 			</div>
 			<br />
 			<div>
 				<label for="password">Mot de passe</label><br />
-				<input id="password" name="password" type="password" required />
+				<input aria-label="password" id="password" name="password" type="password" required />
 			</div>
 
 			{#if form?.user}
 				<p class="error">Utilisateur déjà utilisé.</p>
 			{/if}
 
-			<button class="submitButton" name="Register" type="submit">S'enregistrer</button>
+			<button aria-label="submit" class="submitButton" name="Register" type="submit">S'enregistrer</button>
 		</form>
 	</div>
 </section>

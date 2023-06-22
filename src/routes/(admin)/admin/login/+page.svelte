@@ -10,12 +10,12 @@
 		<form action="?/login" method="POST">
 			<div class="inputContent">
 				<label for="username">Nom d'utilisateur</label><br />
-				<input id="username" name="username" type="text" required />
+				<input aria-label="username" id="username" name="username" type="text" required />
 			</div>
 			<br />
 			<div class="inputContent">
 				<label for="password">Mot de passe</label><br />
-				<input id="password" name="password" type="password" required />
+				<input aria-label="password" id="password" name="password" type="password" required />
 			</div>
 
 			{#if form?.invalid}
@@ -26,7 +26,7 @@
 				<p class="error">Utilisateur ou mot de passe incorrect.</p>
 			{/if}
 
-			<button class="submitButton" name="submit" type="submit">Se connecter</button>
+			<button aria-label="submit" class="submitButton" name="submit" type="submit">Se connecter</button>
 		</form>
 	</div>
 </section>
