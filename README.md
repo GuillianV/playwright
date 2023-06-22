@@ -60,6 +60,8 @@ Lancement de locust:
 
 `npx playwright test tests/fonctionels/`
 
+<img width="546" alt="image" src="https://github.com/GuillianV/playwright/assets/45208166/73201a60-30ef-4818-8fa4-164cb6fee290">
+
 ### Tests unitaires
 
 Utilisation de Jest dans le fichier `/tests/unitaire/unitaire.test.js`
