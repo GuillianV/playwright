@@ -1,5 +1,7 @@
 # Application CRM
+
 #### Par ANTHOINE-MILHOMME Justin et VIBERT-VALLET Guillian
+
 Le projet reprend le design d'un CRM de l'an 2003, très design et ergonomique pour son époque (artistique).
 
 ## Requirements
@@ -39,7 +41,7 @@ Tests effectués sur locust et sur le site `back.petitbac.online`
 
 2. Lancer Playwright
 
-`npx playwright test`
+`npx playwright test tests/fonctionels/`
 
 ### Tests unitaires
 
@@ -51,7 +53,6 @@ Pour lancer les tests unitaires, faire la commande :
 Résultat:
 
 <img width="505" alt="image" src="https://github.com/GuillianV/playwright/assets/45208166/fdb1938e-e21f-4404-93f3-af346d93319b">
-
 
 ### Tests api
 
