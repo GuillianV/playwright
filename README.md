@@ -28,10 +28,27 @@ Les tests doivent être effectués pendant que l'application est lancée. Il fau
 
 ### Tests de charges
 
-Tests effectués sur locust et sur le site `back.petitbac.online`
+Tests effectués sur locust et sur le site `back.lepetitbac.online`
 
 ![](https://github.com/GuillianV/playwright/blob/master/static/images/locus1.PNG)
 ![](https://github.com/GuillianV/playwright/blob/master/static/images/locus2.PNG)
+
+Voici le code locust :
+
+`locust.py`
+
+```py
+from locust import HttpUser, task, between
+class UserBehavior(HttpUser):
+    wait_time = between(1, 3)
+    @task
+    def search(self):
+        self.client.get("/parties")
+```
+
+Lancement de locust:
+
+`locust --web-port=3000 --host=https://back.lepetitbac.online`
 
 ### Tests fonctionnels
 
